@@ -1,5 +1,3 @@
-The GitHub repository [Visual-Feature-Detection-System-for-Counterfeit-Indian-Currency-Notes](https://github.com/vignesh-1809/Visual-Feature-Detection-System-for-Counterfeit-Indian-Currency-Notes) by user `vignesh-1809` is designed to detect counterfeit Indian currency notes using image processing techniques. The repository contains a Jupyter Notebook file (`DIP_PROJECT`) and a PDF report (`DIP_REPORT (1).pdf`) detailing the project's methodology and findings.
-
 ### Project Overview
 
 This project focuses on identifying counterfeit Indian currency notes by analyzing visual features through image processing. It leverages techniques such as ORB (Oriented FAST and Rotated BRIEF) for feature detection and SSIM (Structural Similarity Index) for image comparison.([GitHub][1])

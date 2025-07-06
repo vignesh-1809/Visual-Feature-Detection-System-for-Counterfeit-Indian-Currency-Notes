@@ -1,6 +1,6 @@
 ### Project Overview
 
-This project focuses on identifying counterfeit Indian currency notes by analyzing visual features through image processing. It leverages techniques such as ORB (Oriented FAST and Rotated BRIEF) for feature detection and SSIM (Structural Similarity Index) for image comparison.([GitHub][1])
+This project focuses on identifying counterfeit Indian currency notes by analyzing visual features through image processing. It leverages techniques such as ORB (Oriented FAST and Rotated BRIEF) for feature detection and SSIM (Structural Similarity Index) for image comparison.
 
 ### Key Features
 
@@ -16,7 +16,7 @@ This project focuses on identifying counterfeit Indian currency notes by analyzi
 
 ### Methodology
 
-The system follows a structured process involving image acquisition, preprocessing, feature extraction, and analysis using a combination of ORB and SSIM techniques. It validates security features like latent images, watermarks, security threads, and Mahatma Gandhi's portrait, checks bleed lines, and verifies the number panel.([GitHub][1])
+The system follows a structured process involving image acquisition, preprocessing, feature extraction, and analysis using a combination of ORB and SSIM techniques. It validates security features like latent images, watermarks, security threads, and Mahatma Gandhi's portrait, checks bleed lines, and verifies the number panel.
 
 ### Results
 
@@ -24,7 +24,7 @@ The system follows a structured process involving image acquisition, preprocessi
 
   * *Real Notes*: Achieved 79% accuracy based on testing of ₹500 and ₹2000 notes.
   * *Fake Notes*: Achieved 83% accuracy based on testing of counterfeit notes of the same denominations.
-* **Performance**: Processes each note in approximately 5 seconds when only final results are displayed, making it a quick and efficient solution for counterfeit detection.([GitHub][1])
+* **Performance**: Processes each note in approximately 5 seconds when only final results are displayed, making it a quick and efficient solution for counterfeit detection.
 
 ### Technologies and Libraries Used
 
@@ -38,9 +38,4 @@ The system follows a structured process involving image acquisition, preprocessi
   * ORB (Oriented FAST and Rotated BRIEF): For feature extraction and matching
   * NumPy: For numerical computation
   * Matplotlib: For visualization and analysis
-  * Scikit-image: For SSIM-based similarity scoring([IJRASET][2], [GitHub][1])
-
-For more detailed information and to access the code and report, you can visit the repository: [Visual-Feature-Detection-System-for-Counterfeit-Indian-Currency-Notes](https://github.com/vignesh-1809/Visual-Feature-Detection-System-for-Counterfeit-Indian-Currency-Notes).
-
-[1]: https://github.com/yxshee/fake-currency-detection-system?utm_source=chatgpt.com "GitHub - yxshee/fake-currency-detection-system: python-based system designed to detect counterfeit Indian currency notes 500 and 2000 rupees using image processing techniques like ORB and SSIM. It provides a user-friendly interface for quick validation by analyzing key security features, making it accessible for individuals and small businesses."
-[2]: https://www.ijraset.com/research-paper/fake-currency-detection-using-image-processing?utm_source=chatgpt.com "System for Fake Currency Detection Using Image Processing"
+  * Scikit-image: For SSIM-based similarity scoring([IJRASET][2],
